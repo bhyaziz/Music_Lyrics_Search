@@ -129,8 +129,14 @@ form button {
 }
 
 .lyrics-container {
-  color: white;
+  color: black;
   opacity: .6;
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .lyrics {
