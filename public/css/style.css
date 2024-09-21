@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #da9c0d;
+  background-color: #001F3F;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -90,17 +90,22 @@ form button {
 .songs-container {
   list-style-type: none;
   padding: 0;
-  margin: 30px auto;
+  margin: 50px auto;
   max-width: 100%;
   width: 500px;
-  background-color: rgb(31, 200, 183);
+  background-color: #3A6D8C;
+  text-align: center;
+  line-height: 1.8;
 }
 
 .song {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin: 10px 0;
+  align-items: center; /* Center items vertically */
+  justify-content: center; 
+  color: #EAD8B1;
+  font-size: 1.4em;
+  cursor: pointer;
+  line-height: 1.8; /* Adjust this value as needed */
 }
 
 .prev-and-next-container h2 {
@@ -129,9 +134,9 @@ form button {
 }
 
 .lyrics-container {
-  color: black;
+  color: #EAD8B1;
   opacity: .6;
-  font-size: 1.2em;
+  font-size: 1.5em;
   width: 80%;
   margin: 0 auto;
   padding: 10px;

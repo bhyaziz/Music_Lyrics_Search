@@ -18,6 +18,7 @@ document.getElementById('form').addEventListener('submit', async (event) => {
             data.data.forEach(song => {
                 const songElement = document.createElement('li');
                 songElement.textContent = `${song.artist.name} - ${song.title}`;
+                songElement.classList.add('song');
                 songElement.addEventListener('click', () => fetchLyrics(song.artist.name, song.title));
                 songsContainer.appendChild(songElement);
             });
