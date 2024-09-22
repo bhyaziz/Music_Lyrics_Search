@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Lyric Searcher App</title>
-  <link rel="stylesheet" href="./css/style.css"/>
-</head>
-<body>
-  <header>
-    <h1>Music Lyric Searcher App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Lyric Searcher App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Music Lyric Searcher App</h1>
 
-    <form id="form">
-      <input
-        autofocus
-        id="search"
-        type="text"
-        placeholder="Enter the name of the artist or song..."/>
-      <button type="submit" >Search</button>
-    </form>
-  </header>
+      <form id="form" class="search-box">
+        <input
+          id="search"
+          type="text"
+          placeholder="Enter the name of the artist or song..."
+        />
+        <button type="reset"></button>
+        <button type="submit" style="display: none"></button>
+      </form>
+    </header>
 
-  <ul id="songs-container" class="songs-container"></ul>
+    <ul id="songs-container" class="songs-container"></ul>
 
-  <div id="prev-and-next-container" class="prev-and-next-container"></div>
+    <div id="prev-and-next-container" class="prev-and-next-container"></div>
 
-  <script src="./js/app.js"></script>
-</body>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
-
